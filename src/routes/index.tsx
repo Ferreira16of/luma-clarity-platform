@@ -162,16 +162,8 @@ function Index() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-deep px-6 py-16 text-deep-foreground">
-        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 md:flex-row">
-          <img src={logoFull} alt="LUMA Systems" width={140} height={48} className="h-10 w-auto opacity-90" />
-          <nav className="flex flex-wrap items-center justify-center gap-8 text-sm text-white/60">
-            <a href="#" className="glow-hover transition hover:text-spark">Sobre</a>
-            <a href="#" className="glow-hover transition hover:text-spark">Privacidade</a>
-            <a href="#" className="glow-hover transition hover:text-spark">Contato</a>
-          </nav>
-          <p className="text-xs text-white/40">© {new Date().getFullYear()} LUMA</p>
-        </div>
+      <footer className="bg-background px-6 py-10 border-t border-border">
+        <p className="text-center text-xs text-muted-foreground">© {new Date().getFullYear()} LUMA</p>
       </footer>
     </main>
   );
