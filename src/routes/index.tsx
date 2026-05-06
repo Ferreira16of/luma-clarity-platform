@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Hero } from "@/components/Hero";
 import { Reveal } from "@/components/Reveal";
-import logoFull from "@/assets/luma-full.png";
+import logoMark from "@/assets/luma-logo.png";
 import lumaSoft from "@/assets/luma-soft.jpg";
 import lumaSystems from "@/assets/luma-systems.jpg";
 import g1 from "@/assets/grid-1.jpg";
