@@ -1,174 +1,78 @@
 <div align="center">
 
+<br/>
+
 # ✦ LUMA
 
 ### *Inteligência que ilumina.*
 
 **Uma masterbrand de tecnologia guiada por clareza.**
 
+<br/>
+
 ---
 
-*Clareza é o novo padrão.*
+<br/>
 
 </div>
 
----
+## Clareza é o novo padrão.
 
-## Sobre o Projeto
+Vivemos em uma era de excesso — de dados, de ruído, de complexidade disfarçada de inovação. A **LUMA** nasceu para mudar isso.
 
-A **LUMA** é uma plataforma digital que representa uma masterbrand de tecnologia com duas frentes distintas e complementares:
-
-- **LUMA** — Experiência do usuário, agilidade e produtos finais. O lado humano da inteligência.
-- **LUMA Systems** — Infraestrutura, inteligência de dados e arquitetura para sistemas complexos.
-
-Guiada por uma filosofia de três pilares — **Conexão**, **Simplicidade** e **Futuro** — a LUMA existe para simplificar o amanhã através de conexões inteligentes, onde tecnologia, design e propósito se encontram em uma única luz.
+Somos uma masterbrand de tecnologia construída sobre uma premissa simples: **tecnologia de verdade não complica. Ela ilumina.** Cada produto, cada sistema, cada decisão de design parte desse princípio — conexões inteligentes onde tecnologia, design e propósito se encontram em uma única luz.
 
 ---
 
-## Stack Tecnológica
+## Uma marca. Duas frentes.
 
-| Camada | Tecnologia |
-|---|---|
-| Framework | React 19 |
-| Linguagem | TypeScript 5.8 |
-| Build Tool | Vite 7 |
-| Estilização | Tailwind CSS 4 |
-| Componentes | shadcn/ui + Radix UI |
-| Roteamento | React Router DOM 7 |
-| Gerenciamento de Estado | TanStack Query 5 |
-| Formulários | React Hook Form + Zod |
-| Gráficos | Recharts |
-| Animações | tw-animate-css |
-| Package Manager | Bun |
-| Deploy | Netlify |
-| Linting | ESLint + Prettier |
+O ecossistema LUMA opera em duas dimensões complementares, cada uma com sua identidade, seu foco e seu papel na transformação digital.
 
----
+<br/>
 
-## Arquitetura & Componentes
+### LUMA
+> *O lado humano da inteligência.*
 
-```
-src/
-├── assets/              # Imagens e recursos visuais da marca
-│   ├── luma-logo.png
-│   ├── luma-full.png
-│   ├── luma-soft.jpg
-│   ├── luma-systems.jpg
-│   └── grid-1/2/3.jpg
-│
-├── components/
-│   ├── Hero.tsx         # Seção hero com efeito aurora interativo
-│   ├── Reveal.tsx       # Componente de animação reveal on scroll
-│   └── ui/              # Biblioteca completa de componentes shadcn/ui
-│
-├── pages/
-│   └── Index.tsx        # Página principal com todas as seções
-│
-├── hooks/
-│   └── use-mobile.tsx   # Hook de detecção de viewport mobile
-│
-├── lib/
-│   └── utils.ts         # Utilitários (cn, clsx, tailwind-merge)
-│
-└── styles.css           # Design tokens e estilos globais
-```
+Produtos finais, experiência do usuário e agilidade. A LUMA é onde a tecnologia encontra as pessoas — interfaces que respiram, fluxos que fazem sentido, produtos que existem para ser usados, não explicados.
+
+<br/>
+
+### LUMA Systems
+> *Infraestrutura que sustenta o futuro.*
+
+Arquitetura robusta, inteligência de dados e sistemas pensados para complexidade real. LUMA Systems é a fundação sobre a qual grandes operações se constroem — invisível quando funciona, essencial quando importa.
 
 ---
 
-## Design System
+## A filosofia por trás da marca
 
-O design da LUMA é construído sobre tokens semânticos com `oklch` para máxima fidelidade de cor:
+A linguagem da LUMA é construída sobre três pilares que guiam cada decisão — do código à experiência, do pixel à infraestrutura.
 
-### Paleta de Cores
+**✦ Conexão**
+Tecnologia que aproxima. Sistemas que conversam. Pessoas que chegam onde precisam chegar.
 
-| Token | Descrição |
-|---|---|
-| `--background` | Branco puro — base da interface |
-| `--foreground` | Azul profundo — texto principal |
-| `--deep` | `oklch(0.18 0.05 254)` — seções escuras |
-| `--spark` | `oklch(0.88 0.18 200)` — cor de destaque luminosa |
-| `--muted-foreground` | Tom suave para textos secundários |
+**✦ Simplicidade**
+Não como ausência de profundidade — mas como respeito pelo tempo e pela inteligência de quem usa.
 
-### Gradientes & Efeitos
-
-- **Aurora** — gradiente radial dinâmico que combina `--spark` e `--deep`, animado via movimento do mouse
-- **Deep** — gradiente linear escuro para seções de destaque
-- **Glow Hover** — `drop-shadow` luminoso aplicado ao logo no hover
-- **Reveal** — animação de entrada via `IntersectionObserver` com suporte a `delay` customizável
-
-### Tipografia
-
-- Família: **Inter** com `system-ui` como fallback
-- Suavização de fonte: `-webkit-font-smoothing: antialiased`
-- Kerning customizado: `font-feature-settings: "ss01", "cv11"`
-- Displays com `letter-spacing: 0.01em` e `font-weight: 700`
+**✦ Futuro**
+Projetar o amanhã sem perder o que funciona hoje. Construir com intenção, não com urgência.
 
 ---
 
-## Seções da Landing Page
+## O que nos define
 
-### 1. Hero
-Tela cheia com efeito **aurora interativo** que reage ao movimento do mouse em tempo real. Apresenta o logo da LUMA, o tagline principal e um scroll cue animado.
+A LUMA não é uma empresa de software genérico. É uma empresa de **clareza aplicada** — onde cada camada técnica existe a serviço de um propósito maior. Nossa identidade visual, nossa arquitetura de produto e nossa filosofia de comunicação partem do mesmo lugar: a crença de que o melhor design é o que você não precisa explicar.
 
-### 2. Manifesto
-Seção centrada com a declaração de posicionamento da marca — minimalista e impactante.
-
-### 3. O Ecossistema — Uma marca. Duas frentes.
-Grid 2 colunas apresentando **LUMA** e **LUMA Systems** com cards com efeito hover de zoom suave.
-
-### 4. Filosofia — A linguagem da luz.
-Grid 3 colunas com imagens representando os pilares da marca: **Conexão**, **Simplicidade** e **Futuro** — com gradiente sobreposto e legenda em uppercase tracking.
-
-### 5. Footer
-Minimalista, com copyright dinâmico via `new Date().getFullYear()`.
-
----
-
-## Como Rodar Localmente
-
-**Pré-requisito:** [Bun](https://bun.sh) instalado.
-
-```bash
-# Clone o repositório
-git clone https://github.com/Ferreira16of/luma-clarity-platform.git
-cd luma-clarity-platform
-
-# Instale as dependências
-bun install
-
-# Inicie o servidor de desenvolvimento
-bun run dev
-```
-
-O projeto estará disponível em `http://localhost:8080`.
-
----
-
-## Scripts Disponíveis
-
-```bash
-bun run dev        # Servidor de desenvolvimento
-bun run build      # Build de produção
-bun run build:dev  # Build em modo development
-bun run preview    # Preview do build local
-bun run lint       # Verificação de lint com ESLint
-bun run format     # Formatação automática com Prettier
-```
-
----
-
-## Deploy
-
-O projeto é configurado para deploy contínuo na **Netlify**:
-
-- **Build command:** `bun run build`
-- **Publish directory:** `dist`
-- **SPA redirect:** todas as rotas apontam para `index.html` com status `200`
+Em 2026, quando a indústria segue correndo atrás do próximo hype, a LUMA escolhe ir na direção contrária — **mais fundo, mais claro, mais humano.**
 
 ---
 
 <div align="center">
 
-*© 2025 LUMA — Tecnologia, design e propósito em uma única luz.*
+<br/>
+
+*© 2026 LUMA — Tecnologia, design e propósito em uma única luz.*
+
+<br/>
 
 </div>
